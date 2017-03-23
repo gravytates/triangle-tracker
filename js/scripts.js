@@ -9,19 +9,18 @@ $(document).ready(function(){
     event.preventDefault();
 
     if ((sideA + sideB) <= sideC || (sideA + sideC) <= sideB || (sideB + sideC) <= sideA ) {
-      alert("this is not a triangle");
+      var answer = "This is <strong>not a triangle</strong>";
+      $(".answer").html(answer);
     } else if (sideA === sideB && sideB === sideC && sideA === sideC)  {
-      alert("equilateral!");
+      var answer = "This is an <strong>equilateral triangle</strong>";
+      $(".answer").html(answer);
     } else if (sideA === sideB || sideB === sideC || sideA === sideC) {
-      alert("isosceles");
+      var answer = "This is an <strong>isosceles triangle</strong>";
+      $(".answer").html(answer);
     } else {
-      alert("scalene");
+      var answer = "This is a <strong>scalene triangle</strong>";
+      $(".answer").html(answer);
     }
-    // } else if (((sideA === sideB && sideB != sideC) ||
-
-
-
-
 
     this.reset();
   });
