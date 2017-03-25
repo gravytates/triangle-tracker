@@ -1,6 +1,6 @@
 # _Magic Triangle Machine_
 
-#### _Track suggestion project: week 2 code review for epicodus. Site can be viewed in browser at 'https://gravytates.github.io/track-advice' _
+#### _Minimally styled Triangle calculator project for epicodus week two._
 
 #### By _Grady L Shelton & Sean Pierce_
 
